@@ -2,6 +2,7 @@ import { TabBar } from 'antd-mobile';
 import React, { Component } from 'react';
 
 // import cookbook from 'assert/'
+import Cookbook from './cookbook/Cookbook'
 
 
 export default class Layout extends Component {
@@ -46,6 +47,7 @@ export default class Layout extends Component {
               });
             }}
           >
+          <Cookbook></Cookbook>
           </TabBar.Item>
           <TabBar.Item
             icon={
